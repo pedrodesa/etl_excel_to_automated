@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "excel-to-auto"
+version = "0.1.0"
+description = ""
+authors = ["Pedro de Sá <pedrodesa42@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
