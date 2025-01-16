@@ -1,9 +1,8 @@
-import os # Biblioteca para manipular arquivos e pastas
-import glob # Biblioteca para listar arquivos
-
-import pandas as pd
+import glob  # Biblioteca para listar arquivos
+import os  # Biblioteca para manipular arquivos e pastas
 from typing import List
 
+import pandas as pd
 
 path = './data/input'
 
